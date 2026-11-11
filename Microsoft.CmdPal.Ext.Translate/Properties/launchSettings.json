@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "Microsoft.CmdPal.Ext.Translate (Package)": {
+      "commandName": "MsixPackage",
+      "doNotLaunchApp": true
+    },
+    "Microsoft.CmdPal.Ext.Translate (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

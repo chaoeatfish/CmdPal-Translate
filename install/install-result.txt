@@ -1,0 +1,20 @@
+START 2026-11-11T15:00:18+08:00
+POLICY OK
+CERT OK
+ALREADY INSTALLED (script path bug fixed at 15:00)
+---
+15:15 UPDATE
+SCRIPT BUG FIXED: -RootDir "%~dp0" trailing backslash injected a quote into the path.
+                  FinishInstall.ps1 now uses $PSScriptRoot and -LiteralPath.
+PACKAGE INSTALLED: Microsoft.CmdPal.Ext.Translate_0.0.3.0_x64__a4xfe6jq0s1pg (Status Ok)
+SIGNATURE: valid (self-signed CN=TranslateCmdPal Dev, trusted root)
+EVERYTHING EXTENSION: unaffected, loads 2 command(s) and 1 band(s)
+BLOCKER: Command Palette cannot activate this sideloaded package's COM server.
+         Log: "Failed to find 翻译: -2147024891" (0x80070005 E_ACCESSDENIED)
+         then "You forgot to start the extension".
+         Ruled out: build vs publish output, manifest uap18/PackageDependency,
+         signed MSIX vs loose -Register, CmdPal restart race, exe crash,
+         developer license (IsValid=True), sideload policy (enabled).
+NEXT STEP: reboot Windows, then run Reload Command Palette extensions.
+           If it still fails, this Windows 10 build rejects COM activation of
+           self-signed sideloaded extensions; a Store-signed package is required.

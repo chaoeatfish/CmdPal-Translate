@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ExtensionName" xml:space="preserve"><value>翻译</value></data>
+  <data name="CommandSubtitle" xml:space="preserve"><value>中英互译 · 输入 tr 空格 文本</value></data>
+  <data name="Open" xml:space="preserve"><value>打开</value></data>
+  <data name="PlaceholderText" xml:space="preserve"><value>输入待翻译文本，可用 &gt;en / &gt;zh 指定目标语言</value></data>
+  <data name="CopyTranslation" xml:space="preserve"><value>复制译文</value></data>
+  <data name="CopySource" xml:space="preserve"><value>复制原文</value></data>
+  <data name="Swap" xml:space="preserve"><value>交换语言方向</value></data>
+  <data name="TranslateClipboard" xml:space="preserve"><value>翻译剪贴板</value></data>
+  <data name="ImportKey" xml:space="preserve"><value>从剪贴板导入 API 密钥</value></data>
+  <data name="Settings" xml:space="preserve"><value>设置</value></data>
+  <data name="Detail" xml:space="preserve"><value>查看详情</value></data>
+  <data name="Translating" xml:space="preserve"><value>翻译中…</value></data>
+  <data name="Pending" xml:space="preserve"><value>等待翻译</value></data>
+  <data name="Idle" xml:space="preserve"><value>输入 tr 空格 文本 开始翻译</value></data>
+  <data name="NoConfig" xml:space="preserve"><value>尚未配置翻译服务</value></data>
+  <data name="NoConfigSubtitle" xml:space="preserve"><value>复制密钥后执行「从剪贴板导入 API 密钥」，或在设置中检查端点</value></data>
+  <data name="Failed" xml:space="preserve"><value>翻译失败</value></data>
+  <data name="FailedSubtitle" xml:space="preserve"><value>检查端点、密钥、区域与网络后重试</value></data>
+  <data name="ClipboardEmpty" xml:space="preserve"><value>剪贴板为空或不含文本</value></data>
+  <data name="KeySaved" xml:space="preserve"><value>API 密钥已保存（DPAPI 加密）</value></data>
+  <data name="Copied" xml:space="preserve"><value>已复制到剪贴板</value></data>
+  <data name="KeyImportFailed" xml:space="preserve"><value>密钥保存失败</value></data>
+  <data name="CacheHit" xml:space="preserve"><value>缓存</value></data>
+  <data name="LangAuto" xml:space="preserve"><value>自动识别</value></data>
+  <data name="LangZh" xml:space="preserve"><value>中文</value></data>
+  <data name="LangEn" xml:space="preserve"><value>英文</value></data>
+  <data name="EngineAuto" xml:space="preserve"><value>自动（有密钥用 Azure，否则免费）</value></data>
+  <data name="EngineFree" xml:space="preserve"><value>免费（免密钥）</value></data>
+  <data name="EngineAzure" xml:space="preserve"><value>Azure（需密钥）</value></data>
+  <data name="SettingEngine" xml:space="preserve"><value>翻译引擎</value></data>
+  <data name="SettingEngineDesc" xml:space="preserve"><value>默认自动：无需配置即可使用</value></data>
+  <data name="SettingSource" xml:space="preserve"><value>源语言</value></data>
+  <data name="SettingSourceDesc" xml:space="preserve"><value>自动识别时按文本判定 zh / en</value></data>
+  <data name="SettingTarget" xml:space="preserve"><value>目标语言</value></data>
+  <data name="SettingTargetDesc" xml:space="preserve"><value>自动时译为源语言的对侧</value></data>
+  <data name="SettingEndpoint" xml:space="preserve"><value>翻译端点</value></data>
+  <data name="SettingEndpointDesc" xml:space="preserve"><value>Azure AI Translator v3 兼容地址</value></data>
+  <data name="SettingRegion" xml:space="preserve"><value>服务区域</value></data>
+  <data name="SettingRegionDesc" xml:space="preserve"><value>多服务资源需要填写区域</value></data>
+  <data name="SettingPrefixes" xml:space="preserve"><value>触发前缀</value></data>
+  <data name="SettingPrefixesDesc" xml:space="preserve"><value>逗号分隔；不匹配时不产生内联结果</value></data>
+  <data name="SettingInline" xml:space="preserve"><value>启用首页内联结果</value></data>
+  <data name="SettingInlineDesc" xml:space="preserve"><value>只在前缀命中时返回结果</value></data>
+  <data name="SettingDebounce" xml:space="preserve"><value>防抖（毫秒）</value></data>
+  <data name="SettingDebounceDesc" xml:space="preserve"><value>停止输入后再发起请求</value></data>
+  <data name="SettingTimeout" xml:space="preserve"><value>请求超时（秒）</value></data>
+  <data name="SettingTimeoutDesc" xml:space="preserve"><value>超时后取消且不影响宿主</value></data>
+  <data name="SettingCacheTtl" xml:space="preserve"><value>缓存有效期（分钟）</value></data>
+  <data name="SettingCacheTtlDesc" xml:space="preserve"><value>相同文本与方向复用译文</value></data>
+  <data name="SettingMaxResults" xml:space="preserve"><value>最大结果数</value></data>
+  <data name="SettingMaxResultsDesc" xml:space="preserve"><value>列表页展示上限</value></data>
+</root>
